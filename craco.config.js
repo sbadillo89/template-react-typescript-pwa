@@ -1,16 +1,16 @@
 const CracoAlias = require("craco-alias");
 
 module.exports = {
+  eslint: {
+    enable: false,
+  },
   style: {
     postcss: {
       plugins: [require("tailwindcss"), require("autoprefixer")],
     },
   },
-  eslint: {
-    enabled: false,
-  },
   typescript: {
-    enableTypeChecking: false /* (default value)  */,
+    enableTypeChecking: false,
   },
   plugins: [
     {
