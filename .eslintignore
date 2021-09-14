@@ -10,3 +10,5 @@
 /build
 explorer.html
 /storybook-static
+
+serviceWorkerRegistration.ts
